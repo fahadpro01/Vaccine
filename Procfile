@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run vaccine.py
+web: bundle exec thin start -p $PORT
